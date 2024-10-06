@@ -19,14 +19,17 @@ namespace inrDegiskenler2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int sayi,sonuc;
+            int sayi,sonuc,sonuc2;
             //sayi = Convert.ToInt16(textBox1.Text);
             //label2.Text = sayi.ToString();
 
 
             sayi = Convert.ToInt16(textBox1.Text);
+            int sayi2 = Convert.ToInt16(textBox2.Text);
             sonuc = (int)Math.Pow(sayi,3);
+            sonuc2 = (int)Math.Pow(sayi2, 3);
             label2.Text=sonuc.ToString();
+            label3.Text = sonuc2.ToString();
         }
     }
 }
