@@ -23,7 +23,7 @@ namespace inrDegiskenler2
             //sayi = Convert.ToInt16(textBox1.Text);
             //label2.Text = sayi.ToString();
 
-
+            int sayi3 = 10;
             sayi = Convert.ToInt16(textBox1.Text);
             int sayi2 = Convert.ToInt16(textBox2.Text);
             sonuc = (int)Math.Pow(sayi,3);
